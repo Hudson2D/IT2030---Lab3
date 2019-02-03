@@ -10,7 +10,7 @@ namespace IT2030___Lab2.Controllers
     {
         public ActionResult Index()
         {
-            return View("Lab3");
+            return View("Details");
         }
 
         public ActionResult About()
@@ -27,7 +27,7 @@ namespace IT2030___Lab2.Controllers
             return View();
         }
 
-        public ActionResult Lab3()
+        public ActionResult Details()
         {
             return View();
         }
