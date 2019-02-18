@@ -24,7 +24,7 @@ namespace IT2030___Lab2.Controllers
             return "Details displayed for ID = " + id;
         }
 
-        public string Location(int zip)
+        public string Location(String zip)
         {
             return "Location dispalayed for zip = " + zip;
         }
